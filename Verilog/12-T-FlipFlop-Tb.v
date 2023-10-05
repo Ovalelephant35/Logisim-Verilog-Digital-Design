@@ -1,9 +1,10 @@
 `timescale 1ps/1ps;
+`include "12-T-FlipFlop.v"
 module ttb();
 reg t,clk=0;
 wire q,qb;
 
-tff uut(.t(t) , .clk(clk) , .q(q) , .qb(qb));
+tff t1(.t(t) , .clk(clk) , .q(q) , .qb(qb));
 
 initial begin
     forever #2 clk = ~clk;
