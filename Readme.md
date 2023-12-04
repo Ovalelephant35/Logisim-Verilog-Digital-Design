@@ -137,20 +137,20 @@ Collection of digital logic circuits implemented in Verilog. The circuits includ
 - **Module**: 9-D-Latch-if.v
 - **Testbench**: 9-D-Latch-if-Tb.v
 
-#Commands to Run Code
+# Commands to Run Code
 
 Kindly Download the required Setup accoring to your Operating System Using Online tutrials available , some handy commands are provided here.
 
-# Compile Verilog files
+## Compile Verilog files
 iverilog -o 2-Half-add.vvp 2-Half-add.v 2-Half-add-tb.v
 
-# Run simulation
+## Run simulation
 vvp 2-Half-add.vvp
 
-# Generate VCD file (optional)
+## Generate VCD file (optional)
 vcd 2-Half-add.vvp
 
-# View simulation waveform using GTKWave (optional)
+## View simulation waveform using GTKWave (optional)
 gtkwave 2-Half-add.vcd
 
 
