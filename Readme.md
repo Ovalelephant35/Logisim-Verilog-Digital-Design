@@ -1,77 +1,60 @@
-# Digisim Repository - Digital Design Lab Circuits
+# Digital Electronics - Digital Design Logisim Verilog
 
-Welcome to the Digital Electronics repository! This repository is dedicated to housing your digital circuits designed as part of the Digital Design Lab. Here, you'll find various digital circuits, simulations, and related files that you create during your lab sessions.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-  - [Creating a New Circuit](#creating-a-new-circuit)
-  - [Simulating Circuits](#simulating-circuits)
-  - [Viewing and Editing Circuits](#viewing-and-editing-circuits)
-- [Contributing](#contributing)
-
-## Introduction
-
-In the Digital Design Lab, you will be working on various digital circuits to understand fundamental concepts of digital electronics and logic design. This repository is designed to help you organize, store, and share your circuit designs and simulations throughout the course.
-
-Key features of this repository:
-
-- **Structured Organization:** Circuits are organized into folders, making it easy to locate specific projects and associated files.
-
-- **Version Control:** Git version control is used to track changes in your circuit designs, enabling collaboration and easy experimentation.
-
-- **Simulation:** You can simulate your circuits using a digital circuit simulator of your choice (e.g., Logisim, Digital Works,Verilog ,  etc.).
-
-## Getting Started
-
-### Prerequisites
-
-Before you start using this repository, make sure you have the following:
-
-1. **Git:** Version control system software. Download and install from [https://git-scm.com/](https://git-scm.com/).
-
-2. **Digital Circuit Simulator:** Choose a simulator that you'll use to design and simulate your circuits (e.g., Logisim, Digital Works, etc.). Install the simulator on your computer.
-
-### Installation
-
-1. **Clone the Repository:** Open your terminal/command prompt and navigate to the directory where you want to store your circuits. Run the following command to clone the repository:
-
-2. **git clone** use standard technique to clone this repo
+Welcome to the Digital Electronics repository! This repository is dedicated to housing your digital circuits designed as part of the Digital Design Lab. Cicuits and Gates Implemented using Logisim and Verilog.
 
 
-3. **Configure Simulation Software** Configure your chosen simulator to save project files within the repository's folder for easy versioning.
+# Digital Logic Circuits with Logisim
+
+This repository contains a collection of digital logic circuits implemented using Logisim.
+
+## Circuits List
+
+1. [Introduction.circ](./1_Introduction.circ)
+   - Logisim circuit introducing basic concepts.
+
+2. [Basic Gates.circ](./2_Basic_Gates.circ)
+   - Logisim circuit demonstrating fundamental logic gates.
+
+3. [Universal Gates.circ](./3_Universal_Gates.circ)
+   - Logisim circuit showcasing universal gates.
+
+4. [NAND Universal.circ](./4_NAND_Universal.circ)
+   - Logisim circuit implementing universal functionality using NAND gates.
+
+5. [NOR Universal.circ](./5_NOR_Universal.circ)
+   - Logisim circuit implementing universal functionality using NOR gates.
+
+6. [XOR.circ](./6_XOR.circ)
+   - Logisim circuit for XOR gate.
+
+7. [XNOR.circ](./7_XNOR.circ)
+   - Logisim circuit for XNOR gate.
+
+8. [XNOR using Universal.circ](./8_XNOR_using_Universal.circ)
+   - Logisim circuit implementing XNOR using universal gates.
+
+9. [XOR using Universal.circ](./9_XOR_using_Universal.circ)
+   - Logisim circuit implementing XOR using universal gates.
+
+10. [Half Adder.circ](./10_Half_Adder.circ)
+    - Logisim circuit for a half adder.
+
+11. [Full Adder.circ](./11_Full_Adder.circ)
+    - Logisim circuit for a full adder.
+
+12. [Four Bit Adder.circ](./12_Four_Bit_Adder.circ)
+    - Logisim circuit for a four-bit adder.
+    
+
+Feel free to explore and modify the circuits for educational purposes!
 
 
-### Usage
 
-1. **Creating a New Circuit:**
-To create a new digital circuit in this repository:
 
-- Launch your chosen digital circuit simulator.
-- Create a new project or design.
-- Save the project within the appropriate subfolder of this repository. You can create a new subfolder if needed.
-- Simulating Circuits
-- Open your digital circuit simulator.
-- Open the desired circuit project from the repository's folder.
-- Build and design your circuit within the simulator.
-- Viewing and Editing Circuits
-- You can view and edit your circuits in your chosen digital circuit simulator. To track changes and collaborate:
-- Make your changes to the circuit design.
-- Save the project.
-
-2. **Use Git to track and manage your changes. Run the following commands in your terminal:**
-
-1. git add .
-2. git commit -m "Brief description of changes made"
-3. git push
 
 ### Contributing
 
-1. Contributions to this repository are welcome! If you want to contribute, follow these steps:
+Contributions to this repository are welcome! If you want to contribute, follow these steps:
 
 - Fork the repository to your GitHub account.
 - Create a new branch for your changes: git checkout -b feature/new-feature.
